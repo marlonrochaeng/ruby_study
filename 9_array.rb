@@ -12,3 +12,10 @@ good, bad = foods.partition{ |f| f.include?("steak")}
 
 p good
 p bad
+
+def sum(*numbers)
+    sum = 0
+    numbers.each {|n| sum += n}
+    sum
+end
+
